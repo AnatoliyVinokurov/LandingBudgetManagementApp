@@ -45,13 +45,14 @@ select {
 
 .header-wrap-color {
     background: linear-gradient(90deg, rgba(171, 32, 213, 0.8) 0%, rgba(238, 27, 217, 0.8) 100%);
-    padding: 50px 0 0 0;
+    padding: 50px 0 200px 0; /*отступ сверху 50 и отступ снизу от последней кнопки 200*/
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 175px;
 }
 
 .menu{
@@ -72,7 +73,7 @@ select {
     color: #e9a7f6;
 }
 
-.transparent-btn{
+.btn{
     padding: 10px 30px;
     color: #fff;
     font-size: 0.875rem;
@@ -87,4 +88,31 @@ select {
     color: #e9a7f6;
     background-color: #e44ef8;
     border: 1px solid #e44ef8;
+}
+
+.header-content{
+    text-align: center;
+    color: #fff;
+}
+
+.header-content h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    margin-bottom: 40px;
+}
+
+.header-content h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    line-height: 2.25rem;
+
+}
+
+.white-btn{
+    color: #e44ef8;
+    background: #fff;
+    padding: 17px 53px;
+    margin-bottom: 40px;
 }
