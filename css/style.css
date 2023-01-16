@@ -38,6 +38,14 @@ select {
     padding: 0 15px;
 }
 
+a{
+    color:#AB20D5;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 .header-wrap {
     background: url(../img/bg-head.jpg) top center no-repeat;
     background-size: cover;
@@ -45,7 +53,8 @@ select {
 
 .header-wrap-color {
     background: linear-gradient(90deg, rgba(171, 32, 213, 0.8) 0%, rgba(238, 27, 217, 0.8) 100%);
-    padding: 50px 0 200px 0; /*отступ сверху 50 и отступ снизу от последней кнопки 200*/
+    padding: 50px 0 200px 0;
+    /*отступ сверху 50 и отступ снизу от последней кнопки 200*/
 }
 
 .header-top {
@@ -55,25 +64,25 @@ select {
     margin-bottom: 175px;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-wrap: wrap;
 }
 
-.menu li a{
+.menu li a {
     padding: 10px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none;
-    font-size: 0,875rem;
+    font-size: 0, 875rem;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: #e9a7f6;
 }
 
-.btn{
+.btn {
     padding: 10px 30px;
     color: #fff;
     font-size: 0.875rem;
@@ -84,25 +93,25 @@ select {
     border-radius: 6px;
 }
 
-.transparent-btn:hover{
+.transparent-btn:hover {
     color: #e9a7f6;
     background-color: #e44ef8;
     border: 1px solid #e44ef8;
 }
 
-.header-content{
+.header-content {
     text-align: center;
     color: #fff;
 }
 
-.header-content h1{
+.header-content h1 {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 4.5rem;
     margin-bottom: 40px;
 }
 
-.header-content h2{
+.header-content h2 {
     font-weight: 500;
     font-size: 1.5rem;
     margin-bottom: 80px;
@@ -110,10 +119,44 @@ select {
 
 }
 
-.white-btn{
+.white-btn {
     color: #e44ef8;
     background: #fff;
     padding: 17px 53px;
     margin-bottom: 40px;
+}
+
+.about-wrap {
+    padding: 100px 0;
+}
+
+.about-block{
+    display: flex;
+}
+
+.about-block-txt, .about-block-img{
+    width: 40%;
+    margin-right: 10%;
+    align-self: center;
+}
+
+img{
+    border-radius: 15px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 2.25rem;
+}
+
+.about-block-txt h2{
+    margin-bottom: 2rem;
+}
+
+.about-block-txt p{
+    text-align:justify;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
 }
 
