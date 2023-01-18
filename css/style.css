@@ -210,3 +210,47 @@ h2 {
     font-size: 0.75rem;
     margin-bottom: 20px;
 }
+
+.tech-wrap{
+    padding: 70px 0;
+}
+.tech-wrap>h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.tech-block{
+    display: flex;
+    justify-content: space-between;
+}
+.tech-block-item{
+    max-width: 200px;
+    color: #101010;
+    text-align: center;
+}
+.tech-block-item header{
+    font-weight: 700;
+    font-size: 6.25rem;
+    color: rgba(16, 16, 16, 0.08);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.tech-block-item header img{
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tech-block-item h3{
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+
+.tech-block-item p{
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
