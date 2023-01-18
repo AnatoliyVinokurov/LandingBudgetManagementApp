@@ -38,13 +38,7 @@ select {
     padding: 0 15px;
 }
 
-a{
-    color:#AB20D5;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
+
 
 .header-wrap {
     background: url(../img/bg-head.jpg) top center no-repeat;
@@ -130,33 +124,89 @@ a:hover{
     padding: 100px 0;
 }
 
-.about-block{
+.about-block {
     display: flex;
 }
 
-.about-block-txt, .about-block-img{
+.about-block-txt,
+.about-block-img {
     width: 40%;
     margin-right: 10%;
     align-self: center;
 }
 
-img{
+img {
     border-radius: 15px;
 }
 
-h2{
+h2 {
     font-weight: 500;
     font-size: 2.25rem;
 }
 
-.about-block-txt h2{
+.about-block-txt h2 {
     margin-bottom: 2rem;
 }
 
-.about-block-txt p{
-    text-align:justify;
+.about-block-txt p {
+    text-align: justify;
     font-weight: 400;
     font-size: 0.875rem;
     margin-bottom: 1rem;
 }
 
+.link {
+    color: #AB20D5;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.posibilities-wrap {
+    background: #FAFAFA;
+    padding: 70px 0;
+}
+
+.posibilities-wrap>h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.posibilities-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.posibilities-block-item {
+    max-width: 350px;
+    text-align: center;
+    color: #101010;
+    display: flex;
+    flex-direction: column;
+}
+
+.posibilities-block-txt {
+    background: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px 20px 1px 20px;
+    margin: -95px 30px 0 30px;
+    z-index: 1;
+    position: relative;
+    flex-grow: 1;
+}
+
+.posibilities-block-txt h3 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+
+.posibilities-block-txt p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
