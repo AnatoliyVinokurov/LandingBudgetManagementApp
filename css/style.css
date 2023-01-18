@@ -293,3 +293,50 @@ h2 {
 .download-app a{
     margin-right: 1rem;
 }
+
+.contact-wrap {
+padding: 100px 0;
+}
+
+.contact-block {
+    display: flex;
+}
+
+.contact-block-txt{
+    width: 42%;
+    margin-right: 8%;
+    align-self: center;
+}
+.contact-block-form {
+    width: 50%;
+}
+
+.contact-block-txt h2 {
+    margin-bottom: 2rem;
+}
+
+.contact-block-txt p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.input-txt{
+    border: 1px solid #333333;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    padding: 20px 30px;
+    margin-bottom: 1rem;
+    outline-color: #e44ef8;
+}
+.r-btn{
+    background: #e44ef8;
+    color: #fff;
+    padding: 17px 53px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
