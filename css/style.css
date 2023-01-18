@@ -211,23 +211,27 @@ h2 {
     margin-bottom: 20px;
 }
 
-.tech-wrap{
+.tech-wrap {
     padding: 70px 0;
 }
-.tech-wrap>h2{
+
+.tech-wrap>h2 {
     text-align: center;
     margin-bottom: 4rem;
 }
-.tech-block{
+
+.tech-block {
     display: flex;
     justify-content: space-between;
 }
-.tech-block-item{
+
+.tech-block-item {
     max-width: 200px;
     color: #101010;
     text-align: center;
 }
-.tech-block-item header{
+
+.tech-block-item header {
     font-weight: 700;
     font-size: 6.25rem;
     color: rgba(16, 16, 16, 0.08);
@@ -235,7 +239,7 @@ h2 {
     position: relative;
 }
 
-.tech-block-item header img{
+.tech-block-item header img {
     border-radius: 0;
     position: absolute;
     bottom: 0;
@@ -243,14 +247,49 @@ h2 {
     transform: translateX(-50%);
 }
 
-.tech-block-item h3{
+.tech-block-item h3 {
     font-weight: 500;
     font-size: 1.125rem;
     margin-bottom: 20px;
 }
 
-.tech-block-item p{
+.tech-block-item p {
     font-weight: 400;
     font-size: 0.75rem;
     margin-bottom: 20px;
+}
+
+.download-wrap {
+    background: linear-gradient(90deg, rgba(171, 32, 213, 0.6) 0%, rgba(238, 27, 217, 0.6) 100%);
+    padding: 100px 0;
+}
+
+.download-block {
+    display: flex;
+    color:#fff;
+}
+
+.download-block-txt,
+.download-block-img {
+    width: 42%;
+    margin-right: 8%;
+    align-self: center;
+}
+
+.download-block-txt h2 {
+    margin-bottom: 2rem;
+}
+
+.download-block-txt p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+.download-app{
+    display: flex;
+    margin-top: 3rem;
+}
+.download-app a{
+    margin-right: 1rem;
 }
