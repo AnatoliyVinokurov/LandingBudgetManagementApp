@@ -367,9 +367,12 @@ h2 {
 }
 
 @media (max-width: 800px) {
-    .header-wrap-color{
+
+    /*header*/
+    .header-wrap-color {
         padding-top: 20px;
     }
+
     .header-top {
         flex-direction: column;
     }
@@ -397,4 +400,17 @@ h2 {
         margin-bottom: 15px;
     }
 
+    /*about block*/
+    .about-block {
+        flex-direction: column-reverse;
+    }
+
+    .about-block-txt,
+    .about-block-img {
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+    .about-block-img img{
+        margin: 0 auto;
+    }
 }
