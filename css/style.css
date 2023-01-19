@@ -401,6 +401,10 @@ h2 {
     }
 
     /*about block*/
+    .about-wrap {
+        padding: 3rem 1rem;
+    }
+
     .about-block {
         flex-direction: column-reverse;
     }
@@ -410,7 +414,35 @@ h2 {
         width: 100%;
         margin: 0 0 2rem 0;
     }
-    .about-block-img img{
+
+    .about-block-img img {
         margin: 0 auto;
+    }
+
+     /*posibilities block*/
+     .posibilities-wrap {
+        padding: 3rem 0;
+    }
+    .posibilities-block{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    /*tech block*/
+
+    .tech-block{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .tech-block-item{
+        max-width: 40%;
+    }
+    /*download block*/
+
+}
+
+@media (max-width: 500px) {
+    .tech-block-item{
+        max-width: 100%;
     }
 }
